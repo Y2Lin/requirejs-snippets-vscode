@@ -1,0 +1,40 @@
+{
+  "requirejs config": {
+    "prefix": "rqConfig",
+    "body": [
+      "require.config({",
+      "\tbaseUrl: \"${1:baseUrl}\",",
+      "\tshim: {",
+      "\t\t'${2:name}': {",
+      "\t\t\tdeps: ['${3:dep}'],",
+      "\t\t\texports: '${4:exports}'",
+      "\t\t}",
+      "\t},",
+      "\tpaths: {",
+      "\t\t\"${5:name}\": \"${6:path}\"",
+      "\t}",
+      "});"
+    ],
+    "description": "require.js config"
+  },
+  "requirejs define": {
+    "prefix": "rqDefine",
+    "body": [
+      "define([\"path/${1:deps}\"], function(${1:deps}) {",
+      "\t'use strict'",
+      "${2:// body}",
+      "});"
+    ],
+    "description": "require.js define module"
+  },
+  "requirejs require": {
+    "prefix": "rqRequire",
+    "body": [
+      "require([\"path/${1:deps}\"], function(${1:deps}) {",
+      "\t'use strict'",
+      "${2:// body}",
+      "});"
+    ],
+    "description": "require.js require module"
+  }
+}

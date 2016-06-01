@@ -1,0 +1,31 @@
+{
+    "name": "requirejs-snippets",
+    "publisher": "yuanlinssdut",
+    "displayName": "Angular 1 JavaScript and TypeScript Snippets",
+    "description": "Angular 1 JavaScript and TypeScript snippets",
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#FBC370;",
+        "theme": "dark"
+    },
+    "license": "SEE LICENSE IN LICENSE.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yuanlinssdut/requirejs-snippets-vscode.git"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "0.10.x"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/javascript.json"
+            }
+        ]
+    }
+}
