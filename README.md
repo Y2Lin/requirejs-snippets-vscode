@@ -2,15 +2,13 @@
 
 This extension for Visual Studio Code adds snippets for Requirejs.
 
-![Use Extension](images/use-extension.gif)
-
 ## Usage
 Type part of a snippet, press `enter`, and the snippet unfolds.
 
 ```javascript
-rqConfig // creates an Angular controller
-rqDefine  // creates an Angular directive
-rqRequire    // creates an Angular factory
+rqConfig // creates an requirejs config
+rqDefine  // creates an requirejs define
+rqRequire    // creates an requirejs require
 ```
 
 Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (OSX) to activate snippets from within the editor.
