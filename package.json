@@ -1,8 +1,8 @@
 {
     "name": "requirejs-snippets",
     "publisher": "yuanlinssdut",
-    "displayName": "Angular 1 JavaScript and TypeScript Snippets",
-    "description": "Angular 1 JavaScript and TypeScript snippets",
+    "displayName": "requirejs-snippets",
+    "description": "requirejs-snippets",
     "icon": "images/icon.png",
     "galleryBanner": {
         "color": "#FBC370;",
