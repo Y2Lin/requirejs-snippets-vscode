@@ -3,12 +3,13 @@
 This extension for Visual Studio Code adds snippets for Requirejs.
 
 ## Usage
+![Use Extension](images/demo.gif)  
 Type part of a snippet, press `enter`, and the snippet unfolds.
 
 ```javascript
-rqConfig // creates an requirejs config
+rqConfig  // creates an requirejs config
 rqDefine  // creates an requirejs define
-rqRequire    // creates an requirejs require
+rqRequire // creates an requirejs require
 ```
 
 Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (OSX) to activate snippets from within the editor.
